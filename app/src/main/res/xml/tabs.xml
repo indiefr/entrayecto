@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        icon="@drawable/ic_init"
+        id="@+id/tab_init"
+        title=""/>
+    <tab
+        icon="@drawable/ic_ship"
+        id="@+id/tab_ship"
+        title=""/>
+    <tab
+        icon="@drawable/ic_account"
+        id="@+id/tab_account"
+        title=""/>
+    <tab
+        icon="@drawable/ic_car"
+        id="@+id/tab_car"
+        title=""/>
+</tabs>

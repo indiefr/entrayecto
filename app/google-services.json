@@ -1,0 +1,95 @@
+{
+  "project_info": {
+    "project_number": "652481718712",
+    "firebase_url": "https://en-trayecto.firebaseio.com",
+    "project_id": "en-trayecto",
+    "storage_bucket": "en-trayecto.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652481718712:android:557f1abc0f220243",
+        "android_client_info": {
+          "package_name": "creatio.com.entrayecto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "652481718712-05sj78l5bfamk37vb56n80o47q0hla49.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "creatio.com.entrayecto",
+            "certificate_hash": "f88d6afab7f2e550dd88f8bec391c9272678d942"
+          }
+        },
+        {
+          "client_id": "652481718712-m6euj30na3rgjv9vhfpnd1fvldmga7a7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "creatio.com.entrayecto",
+            "certificate_hash": "32ebc638dde1395106d69e575eb8472c1d9f6bce"
+          }
+        },
+        {
+          "client_id": "652481718712-nbj1d4h33rokr4gm6fbsiutgh1igjjub.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "creatio.com.entrayecto",
+            "certificate_hash": "30f53a8b980752b45dd979b79acab111c621ade4"
+          }
+        },
+        {
+          "client_id": "652481718712-8hunrvpfjaha8ck7ceo3f0kq0072vmpl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "creatio.com.entrayecto",
+            "certificate_hash": "723dc1ba381a5a6882ff54817d56f84209e63186"
+          }
+        },
+        {
+          "client_id": "652481718712-bq78k8p6dc9km2j1l5h48i39p4k0isrf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "creatio.com.entrayecto",
+            "certificate_hash": "30395257fa50429ba177c11958c5729e50d65f83"
+          }
+        },
+        {
+          "client_id": "652481718712-kcqfl66936vg2ncmr83u0q45lt1rb7au.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "creatio.com.entrayecto",
+            "certificate_hash": "285f21f188df9fce62f6949e1b37d2e20b7f74c6"
+          }
+        },
+        {
+          "client_id": "652481718712-55m36sjor06guc17a4mb8u6rrdhpb2nr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA39fpWVaRuH5WFHuFuF6KhLb3F2abvPC4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "652481718712-55m36sjor06guc17a4mb8u6rrdhpb2nr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

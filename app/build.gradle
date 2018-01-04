@@ -1,0 +1,53 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion "27.0.1"
+    defaultConfig {
+        applicationId "creatio.com.entrayecto"
+        minSdkVersion 16
+        targetSdkVersion 27
+        versionCode 3
+        multiDexEnabled true
+        versionName '1.2'
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:27.0.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.google.android.gms:play-services-maps:11.6.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    compile 'com.google.firebase:firebase-auth:11.6.2'
+    compile 'com.google.android.gms:play-services-auth:11.6.2'
+    compile 'com.google.firebase:firebase-messaging:11.6.2'
+    compile 'com.roughike:bottom-bar:2.3.1'
+    compile 'com.ogaclejapan.smarttablayout:library:1.6.1@aar'
+    //Optional: see how to use the utility.
+    compile 'com.ogaclejapan.smarttablayout:utils-v4:1.6.1@aar'
+    compile 'io.conekta:conektasdk:2.0'
+    compile 'com.codemybrainsout.rating:ratingdialog:1.0.8'
+    compile 'com.braintreepayments:card-form:3.0.6'
+    compile 'com.amitshekhar.android:android-networking:1.0.0'
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.facebook.android:facebook-android-sdk:[4,5)'
+    compile 'com.android.support:palette-v7:27.0.1'
+    compile 'com.tapadoo.android:alerter:2.0.2'
+    compile 'com.google.android.gms:play-services-places:11.6.2'
+    compile 'com.github.jd-alexander:library:1.1.0'
+    implementation 'com.android.support:cardview-v7:27.0.1'
+}
+apply plugin: 'com.google.gms.google-services'
